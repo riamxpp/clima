@@ -1,0 +1,103 @@
+.date {
+  min-height: 5rem;
+  height: auto;
+  width: 40rem;
+  border: 2px solid #333;
+  padding: 0.4rem;
+  border-radius: 0.4rem;
+}
+
+.loading {
+  height: 5rem;
+  width: 40rem;
+  text-align: center;
+}
+
+.error {
+  height: 5rem;
+  width: 40rem;
+  text-align: center;
+}
+
+.noSearch {
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.temperature {
+  padding: 0.4rem;
+  display: flex;
+  height: 5rem;
+  width: 65%;
+}
+
+.currentTemp {
+  padding-left: 0.4rem;
+  display: flex;
+}
+
+.currentTemp div {
+  margin: 0.9rem 0.2rem 0 0.2rem;
+}
+
+.currentTemp div:first-child span {
+  font-size: 2rem;
+}
+
+.currentTemp div:last-child {
+  color: #555454;
+}
+
+.temperatureButton {
+  background-color: transparent;
+  border: none;
+  color: #555454;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.buttonActive {
+  font-weight: 700;
+  color: #000;
+}
+
+.climate {
+  margin-top: 0.9rem;
+  display: flex;
+  flex-direction: column;
+  color: #555454;
+}
+
+.climate span {
+  font-size: 0.8rem;
+}
+
+.location {
+  width: 45%;
+  display: flex;
+  justify-content: flex-end;
+  padding: 0.4rem;
+}
+
+.location div {
+  margin-right: 0.6rem;
+}
+
+.location h4,
+.location p {
+  margin: 0 0.4rem;
+  text-align: right;
+}
+
+.location h4 {
+  margin-top: 0.9rem;
+  font-size: 1.3rem;
+}
